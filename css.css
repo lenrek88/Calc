@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #bbbbbb;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body > * {
+    flex-shrink: 0;
+  }
+
+.header {
+    height: 12vh;
+}
+
+.content {
+    background-color: silver;
+    flex: 1;
+}
+
+.phone {
+    background-color: black;
+    height: 70vh;
+    width: 37vh;
+    margin: 3vh auto;
+    border-radius: 4vh;
+}
+
+.top_container {
+    display: flex;
+    justify-content: space-between;
+    color:  white;
+    padding: 1.7vh 2.6vh;  
+    font-size: 1.6vh;  
+}
+
+img {
+    width: 8vh;
+    height: 1.6vh;
+}
+
+.calc {
+    position: absolute;
+    background-color: black;
+    height: 50vh;
+    width: 35vh;
+    margin: 10vh 1vh;
+}
+
+.result {
+    height: 10vh;
+    overflow: hidden;
+}
+
+.text{
+    color: #bbbbbb;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 7vh;
+    text-align: right;
+    padding-top: 2vh;
+    padding-right: 2vh;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 8.7vh);
+    grid-template-rows: repeat(5, 7.5vh);
+    margin-top: 1vh;
+}
+
+button{
+    height: 7vh;
+    width: 7vh;  
+    font-size: 3vh;
+    border: 1vh;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover{
+    background-color: silver;
+}
+
+button:not(:hover){
+    background-color: gray;
+    transition: 0.7s;
+}
+
+/* LINE_1 */
+
+
+.clear{
+    background-color: LightGray;
+    color: black;
+}
+
+.clear:hover{
+    background-color: white;
+}
+
+.clear:not(:hover){
+    background-color: LightGray;
+    transition: 0.7s;
+}
+
+.replacingTheSign{
+    background-color: LightGray;
+    color: black;
+}
+
+.replacingTheSign:hover{
+    background-color: white;
+}
+
+.replacingTheSign:not(:hover){
+    background-color: LightGray;
+    transition: 0.7s;
+}
+
+.percent{
+    background-color: LightGray;
+    color: black;
+}
+
+.percent:hover{
+    background-color: white;
+}
+
+.percent:not(:hover){
+    background-color: LightGray;
+    transition: 0.7s;
+}
+
+.division{
+    background-color: orange;
+}
+
+.division:hover{
+    background-color: NavajoWhite;
+}
+
+.division:not(:hover){
+    background-color: orange;
+    transition: 0.7s;
+}
+
+/* LINE_2 */
+
+.seven{
+
+}
+
+.eight{
+
+}
+
+.nine{
+
+}
+
+.multiplication{
+    background-color: orange;
+}
+
+.multiplication:hover{
+    background-color: NavajoWhite;
+}
+
+.multiplication:not(:hover){
+    background-color: orange;
+    transition: 0.7s;
+}
+
+/* LINE_3 */
+
+.four{
+
+}
+
+.five{
+
+}
+
+.sixv{
+
+}
+
+.subtraction{
+    background-color: orange;
+}
+
+.subtraction:hover{
+    background-color: NavajoWhite;
+}
+
+.subtraction:not(:hover){
+    background-color: orange;
+    transition: 0.7s;
+}
+
+/* LINE_4 */
+
+.one{
+
+}
+
+.two{
+
+}
+
+.free{
+
+}
+
+.addition{
+    background-color: orange;
+}
+
+.addition:hover{
+    background-color: NavajoWhite;
+}
+
+.addition:not(:hover){
+    background-color: orange;
+    transition: 0.7s;
+}
+
+/* LINE_5 */
+
+.zero{
+    padding-right: 55%;
+    width: 15.6vh;
+    border-radius: 4vh;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 3;
+}
+
+.comma{
+
+}
+
+.equal{
+    background-color: orange;   
+}
+
+.equal:hover{
+    background-color: NavajoWhite;   
+}
+
+.equal:not(:hover){
+    background-color: orange;
+    transition: 0.7s;
+}
+
+.bottom {
+    width: 13vh;
+    height: 0.3vh;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -3vh;
+    left: 11vh;
+}
+
+.footer {
+    height: 12vh;
+}
+
+.footer-author {
+    font-size: 2.8vh;
+    text-align: center;
+    margin: 2vh;
+}
