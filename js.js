@@ -109,7 +109,7 @@ function division2(){
     }
 }
 
-// Вторая линия
+// Вторая линия!!!
 
 function seven2(){
     if (buttonOn == 0) {
